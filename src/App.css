@@ -39,6 +39,7 @@
   border-radius: 1.25rem;
   border: 1px solid var(--gray-950);
   box-shadow: 8px 8px #000000;
+  cursor: pointer;
 }
 
 .category {
@@ -63,4 +64,13 @@
 .avatar {
   width: 2rem;
   height: auto;
+}
+
+.blog-card h1 {
+  transition: color 0.3s ease;
+}
+
+.blog-card:hover h1 {
+  transition: color 0.3s ease;
+  color: var(--yellow);
 }
